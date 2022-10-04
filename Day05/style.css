@@ -1,0 +1,24 @@
+.parent {
+  width: 400px;
+  height: 400px;
+  background-color: blueviolet;
+  margin: 0 auto;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: aquamarine;
+  margin: 0 auto;
+}
+
+.grandchild {
+  width: 50%;
+  height: 50%;
+  background-color: bisque;
+  margin: 0 auto;
+}
+
+input:invalid {
+  outline: red;
+}
