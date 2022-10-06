@@ -27,6 +27,7 @@ a:hover {
 }
 
 header {
+  height: 40px;
   min-height: 40px;
   position: sticky;
   top: 0px;
@@ -39,7 +40,7 @@ header {
 
 .nav > ul {
   height: 100%;
-  margin: 0 20px;
+  margin: 0 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,7 +71,7 @@ header {
 main,
 footer {
   max-width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 @media (max-width: 600px) {
@@ -78,9 +79,9 @@ footer {
     background: var(--accent-clr);
     position: fixed;
     width: 100%;
-    top: 0;
-    bottom: 0;
+    height: 100vh;
     opacity: 0.9;
+    transition: height 0.8s;
   }
 
   .open-button {
