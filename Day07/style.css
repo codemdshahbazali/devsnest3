@@ -8,6 +8,7 @@
 :root {
   --dark-clr: blueviolet;
   --accent-clr: rgb(18, 138, 178);
+  scroll-behavior: smooth;
 }
 
 li {
